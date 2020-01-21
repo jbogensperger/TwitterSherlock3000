@@ -1,7 +1,11 @@
+#Don't commit .json files (especially the credentials.json)
+*.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
 
 # C extensions
 *.so

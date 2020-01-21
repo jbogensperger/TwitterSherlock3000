@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <form action="" method="post" novalidate style="text-align:center">
+        {{ form.hidden_tag() }}
+        <p >
+            <img src="static/TwitterSherlockLogo.png" width="600" height="100" vspace="30"> <br>
+            {{ form.query(size=80) }}
+        </p>
+        <p>{{ form.submit() }}</p>
+    </form>
+{% endblock %}
