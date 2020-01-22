@@ -1,6 +1,8 @@
 # TwitterSherlock3000
 Twitter sentiment analysis application for custom queries (including a Pytorch BERT model)
 
+FINAL REPORT CAN BE FOUND IN THE FILE: "Applied_DL_Report_Bogensperger.pdf"
+
 SET UP:
 
 Please download the model from the most recent repository release and place it in "models/" so all model files are reachable for the program in the folder e.g. "models/pytorch_BERT-20191219_06-02-07/". There should be 3 files: "config.json", "pytorch_model.bin" and "vocab.txt".
